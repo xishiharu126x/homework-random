@@ -1,0 +1,95 @@
+html {
+  background-color: #80dddd;  /* 両端部分に付ける背景色(黄緑色) */
+  background-image: url("../img/hanako.jpg");/* 両端部分に付ける背景画像 */
+}
+
+body {
+  /* margin-left: 20px;
+  margin-right: 50px; */
+  background-color: white;
+}
+
+.title{
+  text-align: center;
+  padding-top: 100px;
+  font-weight: normal;
+  font-size: 30px;
+}
+.container {
+  /* padding: 90px; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.result-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 70%;
+  background: rgb(0, 153, 255);
+  margin-left: 150px;
+  transition: 1s;
+  /* background-image: url(../img/353-3537809_instagram-icon-.jpg); */
+}
+
+.result {
+  color: rgb(56, 52, 52);
+  font-size: 30px;
+  transition: 1s;
+  /* animation: normal; */
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 200px;
+  background: rgb(248, 130, 238);
+  color: rgb(56, 52, 52);
+  border-radius: 13px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+.hitokoto-container {
+  margin-bottom: 30px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgb(0, 153, 255);
+  transition: 2s;
+  /* background-image: url(../img/353-3537809_instagram-icon-.jpg); */
+}
+
+.hitokoto {
+  color: rgb(56, 52, 52);
+  font-size: 30px;
+  transition: 1s;
+}
+.to{
+  margin: 20px;
+}
+
+.talk{
+  height: 200px;
+  /* padding-bottom: 70px; */
+  padding-left: 50px;
+}
